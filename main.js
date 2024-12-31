@@ -1,5 +1,4 @@
 document.getElementById('checkButton').addEventListener('click', checkPrime);
-document.getElementById('generateButton').addEventListener('click', generatePrimes);
 
 function checkPrime() {
     const number = parseInt(document.getElementById('numberInput').value);
